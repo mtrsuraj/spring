@@ -1,0 +1,34 @@
+Git command
+1. git init
+2. git remote add origin "https: url"
+3. git fetch
+4. git branch -r
+5. git branch 
+6. git status
+7. touch .gitignore
+8. git fetch && git pull
+9. git switch main/"branch name"
+10. git add .
+11. git status
+12. git commit -m "{fix->patches a bug}, {feat->introduces a new feature}, {docs->changes in documentation}, {style->style changes}, {refactor->code that does not add a feature of fix a bug}, {perf->changes that improve performance}, {test->add missing tests}".
+13. git push
+
+After modify
+1. git add "source file url".
+
+If you getting error like 
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+then run
+
+1. git push --set-upstream origin master.
+2.  git push -u origin master
+3. git comfig remote.origin.push HEAD
+	I. git push
+
+And you can you for global origin
+1. git config --global push.autoSetupRemote true
+2. git push
