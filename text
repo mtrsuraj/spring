@@ -32,3 +32,22 @@ then run
 And you can you for global origin
 1. git config --global push.autoSetupRemote true
 2. git push
+
+
+
+
+
+
+
+How to push local to host
+1. create branch
+2. copy https:url
+3. open project file
+4. open terminal/gitbash in side project
+5. git init
+6. git remote add origin {past url https://}
+7. git branch -r || git branch 
+8. git switch master to main ||  git switch main
+9. git add . || check git status
+10. git commit -m "comment"
+11. git push
