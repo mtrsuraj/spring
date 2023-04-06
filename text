@@ -39,6 +39,7 @@ And you can you for global origin
 
 
 
+
 How to push local to host
 1. create branch
 2. copy https:url
@@ -51,3 +52,9 @@ How to push local to host
 9. git add . || check git status
 10. git commit -m "comment"
 11. git push
+
+
+
+######### If you want to switch one to another branch then
+1. git checkout {currect branch name}
+2. git switch {required branch name} 
